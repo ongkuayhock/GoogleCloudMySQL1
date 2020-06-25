@@ -28,7 +28,7 @@ db_password = "test1234"
 db_name = "khproddb"
 db_connection_name =  "lamusic1:us-central1:lamysql"
 
-print db_user
+print( db_user )
 
 cnx = pymysql.connect(user=db_user, password=db_password,
                         host=host, db=db_name)
