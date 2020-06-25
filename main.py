@@ -23,6 +23,9 @@ db_password = os.environ.get('CLOUD_SQL_PASSWORD')
 db_name = os.environ.get('CLOUD_SQL_DATABASE_NAME')
 db_connection_name = os.environ.get('CLOUD_SQL_CONNECTION_NAME')
 
+print( db_user)
+print( db_connection_name )
+
 app = Flask(__name__)
 
 
