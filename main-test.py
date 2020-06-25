@@ -40,5 +40,6 @@ with cnx.cursor() as cursor:
 cnx.close()
 print('My SQL query result')
 print (result1)
-return (result1)
+
+return
 # [END gae_python37_cloudsql_mysql]
