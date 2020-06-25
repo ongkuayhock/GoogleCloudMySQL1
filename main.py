@@ -57,5 +57,10 @@ def main():
 # [END gae_python37_cloudsql_mysql]
 
 
+@app.route('/info')
+def info():
+    print('My SQL info result')
+    return ("<h1> LA Music is running</h1>")
+
 if __name__ == '__main__':
     app.run(host='127.0.0.1', port=8080, debug=True)
